@@ -1,22 +1,20 @@
-import { BrowserRouter as Router, Route, Routes }
-from "react-router-dom";
-
-import Home from "./components/home/Home.jsx";
-import Footer from "./components/layout/Footer.jsx";
-import Header from "./components/layout/Header.jsx";
-import Contact from "./components/contact/Contact.jsx";
-import Cart from "./components/cart/Cart.jsx";
-import Shipping from "./components/cart/Shipping.jsx";
-import ConfirmOrder from "./components/cart/ConfirmOrder.jsx";
-import PaymentSuccess from "./components/cart/PaymentSuccess.jsx";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Home from "./components/home/Home";
+import Footer from "./components/layout/Footer";
+import Header from "./components/layout/Header";
+import Contact from "./components/contact/Contact";
+import Cart from "./components/cart/Cart";
+import Shipping from "./components/cart/Shipping";
+import ConfirmOrder from "./components/cart/ConfirmOrder";
+import PaymentSuccess from "./components/cart/PaymentSuccess";
 import Login from "./components/login/Login";
 import Profile from "./components/profile/Profile";
 import MyOrders from "./components/myOrders/MyOrders";
-import OrderDetails from "./components/myOrders/OrderDetails.jsx";
-import Dashboard from "./components/admin/Dashboard.jsx";
-import Users from "./components/admin/Users.jsx";
-import Orders from "./components/admin/Orders.jsx";
-import About from "./components/about/About.jsx";
+import OrderDetails from "./components/myOrders/OrderDetails";
+import Dashboard from "./components/admin/Dashboard";
+import Users from "./components/admin/Users";
+import Orders from "./components/admin/Orders";
+import About from "./components/about/About";
 import NotFound from "./components/layout/NotFound";
 
 import "./styles/app.scss";
