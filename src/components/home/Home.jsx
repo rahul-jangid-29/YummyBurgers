@@ -48,8 +48,6 @@ const Home = () => {
         </motion.a>
       </section>
 
-      <Founder />
-
       <Menu />
     </>
   );
